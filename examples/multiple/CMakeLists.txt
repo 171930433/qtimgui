@@ -3,7 +3,7 @@ if (ANDROID)
 else()
     add_executable(qt_imgui_demo_widgets demo-widgets.cpp)
 endif()
-target_link_libraries(qt_imgui_demo_widgets PRIVATE qtImgui)
+target_link_libraries(qt_imgui_demo_widgets PRIVATE qt_imgui)
 # target_link_libraries(qt_imgui_demo_widgets PRIVATE implot)
 
 if(ANDROID)

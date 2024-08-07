@@ -2,7 +2,7 @@
 # cmake_minimum_required (VERSION 3.8.1)
 
 # global solution
-# project(qtimgui_sln)
+# project(qt_imgui_sln)
 
 # goto subs
 # add_subdirectory(examples)
@@ -16,9 +16,9 @@ find_package(Qt5 COMPONENTS Core Quick Gui Widgets REQUIRED)
 # message(CMAKE_SOURCE_DIR===${CMAKE_SOURCE_DIR})
 
 file(GLOB SRCS "*.cpp")
-add_library(qtImgui SHARED ${SRCS})
+add_library(qt_imgui SHARED ${SRCS})
 
-target_link_libraries(qtImgui PUBLIC 
+target_link_libraries(qt_imgui PUBLIC 
   Qt5::Widgets
   Imguis
 )
