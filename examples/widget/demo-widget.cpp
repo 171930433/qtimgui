@@ -1,11 +1,11 @@
 #include <QtImGui.h>
-#include <imgui.h>
 #include <QApplication>
 #include <QTimer>
 #include <QSurfaceFormat>
 #include <QOpenGLWidget>
 #include <QOpenGLExtraFunctions>
-#include <implot.h>
+#include "implot.h"
+#include "imgui.h"
 
 class DemoWindow : public QOpenGLWidget, private QOpenGLExtraFunctions
 {

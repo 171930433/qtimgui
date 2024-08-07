@@ -3,7 +3,7 @@
 #include <QOpenGLExtraFunctions>
 #include <QObject>
 #include <QPoint>
-#include <imgui.h>
+#include "imgui.h"
 #include <memory>
 
 class QMouseEvent;
